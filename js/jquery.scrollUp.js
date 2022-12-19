@@ -69,11 +69,11 @@
                 animSpeed = o.animationSpeed;
                 break;
 
-            case 'slide':
-                animIn = 'slideDown';
-                animOut = 'slideUp';
-                animSpeed = o.animationSpeed;
-                break;
+            // case 'slide':
+            //     animIn = 'slideDown';
+            //     animOut = 'slideUp';
+            //     animSpeed = o.animationSpeed;
+            //     break;
 
             default:
                 animIn = 'show';
