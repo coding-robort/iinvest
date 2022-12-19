@@ -1818,9 +1818,9 @@
     }
 
     /*section title*/
-    .dreamit-section-title {
-        text-align: center;
-    }
+    /* .dreamit-section-title {
+        text-align: left;
+    } */
 
     .dreamit-section-title h1 {
         font-size: 18px;
