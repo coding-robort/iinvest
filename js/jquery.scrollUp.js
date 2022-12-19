@@ -69,11 +69,11 @@
                 animSpeed = o.animationSpeed;
                 break;
 
-            // case 'slide':
-            //     animIn = 'slideDown';
-            //     animOut = 'slideUp';
-            //     animSpeed = o.animationSpeed;
-            //     break;
+            case 'slide':
+                animIn = 'slideDown';
+                animOut = 'slideUp';
+                animSpeed = o.animationSpeed;
+                break;
 
             default:
                 animIn = 'show';
@@ -128,7 +128,7 @@
         scrollName: 'scrollUp',      // Element ID
         scrollDistance: 300,         // Distance from top/bottom before showing element (px)
         scrollFrom: 'top',           // 'top' or 'bottom'
-        scrollSpeed: 300,            // Speed back to top (ms)
+        scrollSpeed: 100,            // Speed back to top (ms)
         easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
         animation: 'fade',           // Fade, slide, none
         animationSpeed: 200,         // Animation in speed (ms)
