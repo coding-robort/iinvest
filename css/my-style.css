@@ -3,7 +3,7 @@
     --ubuntu: 'Ubuntu', sans-serif;
     --theme-color: #e0dff1;
     --primary-border: 1px solid rgba(255, 255, 255, 0.2);
-    --secondary-color: #54cc60;
+    /* --secondary-color: #54cc60; */
     --primary-transition: all 0.3s ease-in;
 }
 
@@ -34,7 +34,8 @@
 }
 
 .slider-inner {
-    background-color: #25204d;
+    /* background-color: #25204d; */
+    background-color: var(--card-bg-color);
     padding: 40px 20px;
     border-radius: 10px;
     margin: 56px 0px 0px;
@@ -71,7 +72,7 @@
 .slider-inner .boost-item {
     padding: 15px 30px;
     border-radius: 10px;
-    background-color: #322a71;
+    background-color: var(--main-bg);
 }
 
 .invest-token-right {
@@ -146,7 +147,7 @@ p.primary {
 }
 
 .primary-btn {
-    background-color: #270e3f;
+    background-color: var(--secondary-color);
     padding: 10px 30px 12px;
     border-radius: 30px;
     -webkit-transition: Var(--primary-transition);
@@ -186,11 +187,28 @@ p.primary {
     margin-right: 10px;
 }
 
-/* @media only screen and (max-width: 991px) {
 
-    a,
-    button {
-        font-size: 16px;
-        line-height: 26px;
-    }
-} */
+.boost-slider-wrapper .owl-nav .owl-prev {
+    margin-right: 10px;
+}
+
+.boost-slider-wrapper .owl-nav .owl-prev,
+.boost-slider-wrapper .owl-nav .owl-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--btn-secondary-bg) !important;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: var(--radius);
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+}

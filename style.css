@@ -1,3 +1,9 @@
+:root {
+    --card-bg-color: #122135;
+    --secondary-color: #00CDAA;
+    --main-bg: #0A1527;
+}
+
 .cryptobit_nav_manu {
     background: transparent;
     position: relative;
@@ -1129,7 +1135,7 @@ p.section-text {
 .style-two .feature-single-box {
     padding: 35px 50px 15px;
     text-align: center;
-    background: #16141C;
+    background: var(--card-bg-color);
     border-radius: 5px;
     margin-bottom: 30px;
 }
